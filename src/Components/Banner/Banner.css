@@ -1,0 +1,153 @@
+.title{
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.title::before{
+    content: "A web developer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd ;
+    animation: typing 3s linear infinite;
+}
+
+
+@keyframes typing {
+    0% {
+        content: 'A|';
+    }
+
+    4% {
+        content: 'A |';
+    }
+
+    8% {
+        content: 'A w|';
+    }
+
+    12% {
+        content: 'A we|';
+    }
+
+    16% {
+        content: 'A web|';
+    }
+
+    20% {
+        content: 'A web |';
+    }
+
+    24% {
+        content: 'A web d|';
+    }
+
+    28% {
+        content: 'A web d|';
+    }
+
+    32% {
+        content: 'A web de|';
+    }
+
+    36% {
+        content: 'A web dev|';
+    }
+
+    40% {
+        content: 'A web deve|';
+    }
+
+    44% {
+        content: 'A web devel|';
+    }
+
+    48% {
+        content: 'A web develo|';
+    }
+
+    52% {
+        content: 'A web develop|';
+    }
+
+    56% {
+        content: 'A web develope|';
+    }
+
+    60% {
+        content: 'A web developer|';
+    }
+
+    64%,
+    83% {
+        content: 'A web developer|';
+    }
+
+    84% {
+        content: 'A web develope|';
+    }
+
+    85% {
+        content: 'A web develop|';
+    }
+
+    86% {
+        content: 'A web develo|';
+    }
+
+    87% {
+        content: 'A web devel|';
+    }
+
+    88% {
+        content: 'A web deve|';
+    }
+
+    89% {
+        content: 'A web dev|';
+    }
+
+    90% {
+        content: 'A web de|';
+    }
+
+    91% {
+        content: 'A web d|';
+    }
+
+    92% {
+        content: 'A web |';
+    }
+
+    93% {
+        content: 'A web|';
+    }
+
+    94% {
+        content: 'A we|';
+    }
+
+    95% {
+        content: 'A w|';
+    }
+
+    96% {
+        content: 'A |';
+    }
+
+    97% {
+        content: 'A|';
+    }
+
+    98% {
+        content: '|';
+    }
+
+    99% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    }
+}
